@@ -10,7 +10,7 @@
 <body>
     <form action="<?php $_SERVER['HTTP_HOST']; ?>/Exos1-et-2/traitement.php" method="post">
         <fieldset>
-            <legend><b>Saisissez vos coordonées </b></legend>
+            <legend>Saisissez vos coordonées</legend>
             <table>
                 <tr>
                     <td>Nom : </td>

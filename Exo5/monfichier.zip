@@ -1,0 +1,26 @@
+DROP TABLE IF EXISTS `user`;
+
+CREATE TABLE `user` (
+  `id` mediumint(8) unsigned NOT NULL auto_increment,
+  `nom` varchar(255) default NULL,
+  `telephone` varchar(100) default NULL,
+  `e-mail` varchar(255) default NULL,
+  `habla` varchar(255) default NULL,
+  `postalZip` varchar(10) default NULL,
+  `région` varchar(50) default NULL,
+  `pays` varchar(100) default NULL,
+  `liste` varchar(255) default NULL,
+  `texto` TEXT default NULL,
+  `plagenumeros` mediumint default NULL,
+  `devise` varchar(100) default NULL,
+  `alphanumérique` varchar(255),
+  PRIMARY KEY (`id`)
+) AUTO_INCREMENT=1;
+
+INSERT INTO `user` (`nom`,`telephone`,`e-mail`,`habla`,`postalZip`,`région`,`pays`,`liste`,`texto`,`plagenumeros`,`devise`,`alphanumérique`)
+VALUES
+  ("Deanna Robles","1-682-477-8354","ornare.tortor@google.ca","CP 644, 1273 Duis Ave","2075","New South Wales","Sweden","9","tellus justo sit amet nulla. Donec non justo. Proin non",8,"$38.99","QKG70LHN4LN"),
+  ("Ethan Valenzuela","1-254-658-5121","eros.non@icloud.edu","Appartement688-1005 Rhoncus. Rd.","7192","West-Vlaanderen","United States","3","diam dictum sapien. Aenean massa. Integer vitae nibh. Donec est",3,"$33.39","KIN83SPM2FG"),
+  ("Steven Gonzales","(296) 942-5001","sapien@google.edu","CP 428, 8255 Eu Rue","419657","FATA","United States","17","semper, dui lectus rutrum urna, nec luctus felis purus ac",5,"$43.64","HJQ84VXC8SV"),
+  ("Steven Roy","1-448-467-6117","tellus.id@protonmail.ca","Appartement379-8737 Gravida Av.","69-34","Trøndelag","Colombia","9","rutrum non, hendrerit id, ante. Nunc mauris sapien, cursus in,",2,"$9.15","FBR77UJK8UF"),
+  ("Zorita Norman","(140) 782-2112","felis.nulla@aol.edu","Appartement979-8813 Donec Rd.","3160 UV","Junín","United Kingdom","19","leo, in lobortis tellus justo sit amet nulla. Donec non",7,"$94.47","ODA73XWT3QD");

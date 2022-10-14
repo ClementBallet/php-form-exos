@@ -2,12 +2,10 @@
 
 ## Enoncés
 
-Exercices formulaires en PHP
-
 ### Exercice 1
 
 - Créer un formulaire comprenant un groupe de champs ayant pour titre "Adresse client".
-- Le groupe doit permettre la saisie du nom, du prénom, de l’adresse, de la ville et du code postal.
+- Le groupe doit permettre la saisie du nom, du prénom, de l’adresse, de la ville et du code postal. 
 - Les données sont ensuite traitées par un fichier PHP séparé récupérant les données et les affichant dans un tableau HTML <table>
 
 ### Exercice 2
