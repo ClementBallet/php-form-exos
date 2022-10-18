@@ -25,7 +25,7 @@
           </td>
         </tr>
         <?php
-        if( !empty($_POST['prixht']) AND !empty($_POST['tva']) )
+        if( !empty($_POST['prixht']) && !empty($_POST['tva']) )
         {
             // Formule : PRIXHT x TVA% (Ex: 100 x 0.20)
             $calculMontantTVA = round($_POST['prixht'] * $_POST['tva'] / 100,2);

@@ -8,7 +8,7 @@
     <title>Exos 1 & 2</title>
 </head>
 <body>
-    <form action="<?php $_SERVER['HTTP_HOST']; ?>/Exos1-et-2/traitement.php" method="post">
+    <form action="/Exos1-et-2/traitement.php" method="post">
         <fieldset>
             <legend>Saisissez vos coordonées</legend>
             <table>

@@ -1,4 +1,5 @@
 <?php
+
 if( !empty($_POST['nom']) &&
     !empty($_POST['prenom']) &&
     !empty($_POST['adresse']) &&
@@ -29,5 +30,5 @@ if( !empty($_POST['nom']) &&
     echo "</table>";
 } else {
     // Si les conditions ne sont pas remplies, on affiche en JS la popup alert() et on renvoie vers la page précédente qui contient le formulaire
-    echo "<script type=\"text/javascript\">alert('Le formulaire est incomplet'); document.location=window.history.back()  </script>";
+    echo "<script type='text/javascript'>alert('Le formulaire est incomplet'); document.location=window.history.back()  </script>";
 }

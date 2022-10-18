@@ -40,6 +40,7 @@
     </form>
 
     <?php
+
     // Condition pour lancer le traitement PHP au clic du submit
     if ( isset($_POST['submit']) )
     {
@@ -64,7 +65,7 @@
         }
         else
         {
-            echo "<script type=\"text/javascript\">alert('Le formulaire est incomplet');</script>";
+            echo "<script type='text/javascript'>alert('Le formulaire est incomplet');</script>";
         }
     }
     ?>
